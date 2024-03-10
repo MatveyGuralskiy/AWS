@@ -1,4 +1,4 @@
-# AWS
+# 🌥️ AWS (Amazon Web Services)
 This AWS repository serves as a comprehensive hub for various scripts, projects, and deployment tools, encompassing a diverse range of functionalities.<br>
 Within this repository, you'll find meticulously crafted scripts designed to streamline and automate various aspects of your AWS infrastructure.<br>
 The collection includes a set of deployment projects tailored to facilitate seamless integration of your applications onto the AWS cloud platform.<br>
