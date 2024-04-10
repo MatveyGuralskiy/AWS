@@ -18,6 +18,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /Beanstalk_PHP_Sample
 
+ |-- /CloudFormation
+
  |-- /Deploy_Ansible+Jenkins
        
  |-- /Deploy_Beanstalk
