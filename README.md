@@ -40,6 +40,9 @@ Explore the contents to discover insightful documentation, well-commented code, 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/VPC-Virtual%20Network/Scheme/VPC-AWS.png?raw=true" style= "height:300px; width:900px" />
 <br>
 <br>
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/SQS/Screens/SQS-Example-2.png?raw=true" style="width:900px">
+<br>
+<br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Bash_Scripts/EC-2-ApacheVariables/Screen/AutoScaling-LoadBalancer.png?raw=true" style= "height:450px; width:900px" />
 
 ## 📢 Additional Information
