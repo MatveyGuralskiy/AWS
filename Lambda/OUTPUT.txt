@@ -1,0 +1,1 @@
+"<h1>S3 Bucket List of Names:</h1><br><br>elasticbeanstalk-eu-north-1-381491938951<br>elasticbeanstalk-eu-west-2-381491938951<br>elasticbeanstalk-eu-west-3-381491938951<br>elasticbeanstalk-us-east-1-381491938951<br>lambda-created-me-on-1713081472.5693312<br>"
