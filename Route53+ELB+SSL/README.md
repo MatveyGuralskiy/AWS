@@ -10,3 +10,17 @@ Steps:
 4. Now we attach our new LoadBalancer to the Route53, Create Record Set as Type A, Alias (Yes) and choose your ELB
 
 5. Go to you new static Subdomain, now it have to be secure
+
+## Website result with ELB
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+ELB+SSL/Screens/Website-1.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+ELB+SSL/Screens/Website-2.png?raw=true"/>
+
+## AWS Console: ELB, Route53, EC2
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+ELB+SSL/Screens/AWS-ELB.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+ELB+SSL/Screens/AWS%20Route53.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+ELB+SSL/Screens/AWS-Instances.png?raw=true"/>
