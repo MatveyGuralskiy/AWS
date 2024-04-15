@@ -20,6 +20,10 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /CloudFormation
 
+ |-- /CloudFront
+
+ |-- /CloudTrail
+
  |-- /Deploy_Ansible+Jenkins
        
  |-- /Deploy_Beanstalk
