@@ -11,6 +11,10 @@ Steps:
 
 5. Go to you new static Subdomain, now it have to be secure
 
+## Result
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+ELB+SSL/Screens/Result.png?raw=true"/>
+
 ## Website result with ELB
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+ELB+SSL/Screens/Website-1.png?raw=true"/>
