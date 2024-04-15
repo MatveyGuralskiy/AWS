@@ -20,3 +20,15 @@ Useful to use:
 - Who and when change permissions
 
 And more...
+
+## AWS CloudTrail
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/CloudTrail/Screens/CloudTrail-1.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/CloudTrail/Screens/CloudTrail-2.png?raw=true"/>
+
+## AWS S3 Bucket
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/CloudTrail/Screens/AWS-S3-1.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/CloudTrail/Screens/AWS-S3-2.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/CloudTrail/Screens/AWS-S3-3.png?raw=true"/>
