@@ -41,6 +41,25 @@ Don't make in Elastic Beanstalk Database, because you can terminate it by mistak
 
 ## Result demonstration
 
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/Result.png?raw=true"/>
+
 ## Deployment Website
 
-## AWS Console
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/Website.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/Deployment-1.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/Deployment-2.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/Deployment-3.png?raw=true"/>
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/PHP-Template.png?raw=true"/>
+
+## SSH Connection to AWS EC2 Instance
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/SSH-Connection.png?raw=true"/>
+
+## AWS Console: EC2, Auto-Scaling-Group, LoadBalancer
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/AWS-Instances.png?raw=true"/>
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/AutoScaling-Group.png?raw=true"/>
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/LoadBalancer.png?raw=true"/>
