@@ -51,6 +51,9 @@ Explore the contents to discover insightful documentation, well-commented code, 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/Result.png?raw=true"/>
 <br>
 <br>
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/Production-Website-1.png?raw=true"/>
+<br>
+<br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/VPC-Virtual%20Network/Scheme/VPC-AWS.png?raw=true" style= "height:300px; width:900px" />
 <br>
 <br>
