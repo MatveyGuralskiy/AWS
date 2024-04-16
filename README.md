@@ -30,6 +30,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /ElasticBeanstalk
 
+ |-- /ElasticBeanstalk_Ebextensions
+
  |-- /Lambda
 
  |-- /Route53+ELB+SSL
@@ -49,6 +51,9 @@ Explore the contents to discover insightful documentation, well-commented code, 
 <br>
 <br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/Result.png?raw=true"/>
+<br>
+<br>
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk_Ebextensions/Screens/Result.png?raw=true"/>
 <br>
 <br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/Production-Website-1.png?raw=true"/>
