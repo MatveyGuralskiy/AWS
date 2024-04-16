@@ -28,6 +28,7 @@ I made a Swap-Domain for to of them, so in Production we have Green/Blue Deploym
 ## Result demonstration
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/Result.png?raw=true">
+
 ## Production-A
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/AWS-ElasticBeanstalk-Production.png?raw=true">
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/Production-PHP.png?raw=true">
