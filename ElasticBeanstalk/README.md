@@ -43,7 +43,6 @@ I made a Swap-Domain for to of them, so in Production we have Green/Blue Deploym
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/Staging-PHP.png?raw=true">
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/Staging-Website-1.png?raw=true">
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ElasticBeanstalk/Screens/Staging-Website-2.png?raw=true">
-<img src="">
 
 ## AWS Console CloudFormation and EC2 Instances
 
