@@ -1,0 +1,4 @@
+sudo snap install amazon-ssm-agent --classic
+sudo systemctl stop snap.amazon-ssm-agent.amazon-ssm-agent.service
+sudo /snap/amazon-ssm-agent/current/amazon-ssm-agent -register -code "ACTIVATION CODE" -id "ACTIVATION ID" -region "REGION" 
+sudo systemctl start snap.amazon-ssm-agent.amazon-ssm-agent.service
