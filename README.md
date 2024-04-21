@@ -41,6 +41,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
  |-- /SNS
 
  |-- /SQS
+
+ |-- /SSM
        
  |-- /VPC-Virtual Network
        
