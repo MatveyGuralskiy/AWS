@@ -14,3 +14,7 @@ Ansible as builder of playbook and install Apache WebServers for TEST and PROD
 
 ## 📦 Jenkins
 Jenkins for simple testing of index.html Webpage and Deploy them to the servers
+
+
+## Result
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Deploy_Ansible+Jenkins/Result_EC2/Final_Result.png?raw=true" style="width:700px">
