@@ -11,6 +11,11 @@ In Trust Relationship you can choose the users you want to get the Cross Account
 
 root = means the Cross Account Access gives to all users of this account
 
+## AWS IAM Role
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Cross_Account_Access/Screens/AWS-IAM-Role-1.png?raw=true">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Cross_Account_Access/Screens/AWS-IAM-Role-2.png?raw=true">
+
+## AWS CLI
 Now go to developer console and download aws cli
 
 ```
@@ -37,3 +42,6 @@ In short:
 1. In Trust Relationship of IAM Role you write who and from which account can be able to use the Role
 
 2. What's account get the access have to make Assume Role and get temporary Credentials
+
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Cross_Account_Access/Screens/AWS-CLI.png?raw=true">
