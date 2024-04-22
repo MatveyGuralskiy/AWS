@@ -34,7 +34,13 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /ElasticBeanstalk_Ebextensions
 
+ |-- /Extra_Time
+
  |-- /Lambda
+
+ |-- /RDS
+
+ |-- /Resource_Groups
 
  |-- /Route53+ELB+SSL
 
