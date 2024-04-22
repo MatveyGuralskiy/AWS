@@ -24,6 +24,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /CloudTrail
 
+ |-- /Cross_Account_Access
+
  |-- /Deploy_Ansible+Jenkins
        
  |-- /Deploy_Beanstalk
