@@ -54,12 +54,17 @@ Explore the contents to discover insightful documentation, well-commented code, 
        
  |-- /VPC-Virtual Network
 
+ |-- /VPC_MultiCIDR
+
  |-- /VPC_Peering
        
  |-- README.md
 
 ### 📝 Examples
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/VPC_Peering/Screens/Result.png?raw=true">
+<br>
+<br>
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/VPC_MultiCIDR/Screens/Result-Demonstration.png?raw=true">
 <br>
 <br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+ELB+SSL/Screens/Result.png?raw=true"/>
