@@ -46,6 +46,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /Route53+S3+SSL
 
+ |-- /Route53_Health_Check
+
  |-- /SNS
 
  |-- /SQS
@@ -93,7 +95,10 @@ Explore the contents to discover insightful documentation, well-commented code, 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/SQS/Screens/SQS-Example-2.png?raw=true" style="width:900px">
 <br>
 <br>
-<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Bash_Scripts/EC-2-ApacheVariables/Screen/AutoScaling-LoadBalancer.png?raw=true" style= "height:450px; width:900px" />
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53_Health_Check/Screens/Webserver-Paris.png?raw=true" />
+<br>
+<br>
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53_Health_Check/Screens/Instance-1.png?raw=true">
 
 ## 📢 Additional Information
 
