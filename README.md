@@ -32,6 +32,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
        
  |-- /Deploy_Beanstalk
 
+ |-- /ECR
+
  |-- /EFS
 
  |-- /ElasticBeanstalk
