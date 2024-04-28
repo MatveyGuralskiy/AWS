@@ -40,6 +40,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /Lambda
 
+ |-- /Lifecycle-Manager
+
  |-- /NLB
 
  |-- /RDS
