@@ -5,7 +5,11 @@ It's storage of images like DockerHub
 
 First of all I created Security group with ports SSH and HTTP and EC2 Instance *Docker Ubuntu*
 
-I Install to Instance Docker and AWS CLI
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/Security-group.png?raw=true">
+
+I Install to Instance Docker and AWS CLI and in AWS IAM create new user to connect to AWS CLI
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/IAM-User.png?raw=true">
 
 *How to Install Docker for Ubuntu/Debian*
 
@@ -20,6 +24,12 @@ sudo systemctl status docker
 sudo usermod -aG docker $USER
 ```
 
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/Docker-Install-1.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/Docker-Install-2.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/Docker-Install-3.png?raw=true">
+
 *How to Install AWS CLI for Ubuntu/Debian*
 ```
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -31,6 +41,8 @@ aws --version
 After that I export my AWS Credentials with environment variables and went to AWS Console
 
 ECR Service --> Create Repository --> Copy the URI link
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/ECR-1.png?raw=true">
 
 I come back to the Instance SSH connection and in console enter this command to connect to the ECR with docker:
 
@@ -55,3 +67,15 @@ docker pull YOUR_URI_LINK_ECR:V1 (or V2)
 # To run the Docker Container
 docker -d -p YOUR_PORT:80 website:V1 (or V2)
 ```
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/Docker-1.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/Docker-2.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/Docker-3.png?raw=true">
+
+## Final Result of Docker Containers of Website
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/Website.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECR/Screens/Website-V2.png?raw=true">
