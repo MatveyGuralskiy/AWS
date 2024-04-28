@@ -32,6 +32,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
        
  |-- /Deploy_Beanstalk
 
+ |-- /EFS
+
  |-- /ElasticBeanstalk
 
  |-- /ElasticBeanstalk_Ebextensions
@@ -98,6 +100,9 @@ Explore the contents to discover insightful documentation, well-commented code, 
 <br>
 <br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+S3+SSL/Screens/Result.png?raw=true"/>
+<br>
+<br>
+<img src="https://github.com/MatveyGuralskiy/AWS/raw/main/EFS/Screens/EFS-2.png?raw=true">
 <br>
 <br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/SQS/Screens/SQS-Example-2.png?raw=true" style="width:900px">
