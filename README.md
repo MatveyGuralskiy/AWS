@@ -36,6 +36,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /ECS
 
+ |-- /ECS_Cluster
+
  |-- /EFS
 
  |-- /ElasticBeanstalk
