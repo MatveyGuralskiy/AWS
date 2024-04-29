@@ -34,6 +34,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /ECR
 
+ |-- /ECS
+
  |-- /EFS
 
  |-- /ElasticBeanstalk
@@ -102,6 +104,9 @@ Explore the contents to discover insightful documentation, well-commented code, 
 <br>
 <br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Route53+S3+SSL/Screens/Result.png?raw=true"/>
+<br>
+<br>
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECS/Screens/Demonstration.png?raw=true">
 <br>
 <br>
 <img src="https://github.com/MatveyGuralskiy/AWS/raw/main/EFS/Screens/EFS-2.png?raw=true">
