@@ -38,6 +38,10 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /ECS_Cluster
 
+ |-- /ECS_Fargate
+
+ |-- /ECS_Service
+
  |-- /EFS
 
  |-- /ElasticBeanstalk
@@ -82,6 +86,9 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
 ### 📝 Examples
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/VPC_Peering/Screens/Result.png?raw=true">
+<br>
+<br>
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/ECS_Service/Screens/Demonstration.png?raw=true">
 <br>
 <br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/VPC_Endpoints/Screens/Result.png?raw=true">
