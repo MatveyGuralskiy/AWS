@@ -26,6 +26,10 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /CloudTrail
 
+ |-- /CloudWatch-Alarms
+
+ |-- /CloudWatch-Metrics
+
  |-- /Cross_Account_Access
 
  |-- /Deploy_Ansible+Jenkins
@@ -85,6 +89,9 @@ Explore the contents to discover insightful documentation, well-commented code, 
  |-- README.md
 
 ### 📝 Examples
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/CloudWatch-Alarms/Screens/Demonstration.png?raw=true">
+<br>
+<br>
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/VPC_Peering/Screens/Result.png?raw=true">
 <br>
 <br>
