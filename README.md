@@ -78,11 +78,11 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /SSM
        
- |-- /VPC-Virtual Network
-
  |-- /VPC_Endpoints
 
  |-- /VPC_MultiCIDR
+
+ |-- /VPC-NAT-Gateway
 
  |-- /VPC_Peering
        
