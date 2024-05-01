@@ -77,6 +77,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
  |-- /SQS
 
  |-- /SSM
+
+ |-- /VPC_Bastion-Host
        
  |-- /VPC_Endpoints
 
