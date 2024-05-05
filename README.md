@@ -87,6 +87,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
  |-- /VPC-NAT-Gateway
 
  |-- /VPC_Peering
+
+ |-- /VPN
        
  |-- README.md
 
