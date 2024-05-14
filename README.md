@@ -78,6 +78,8 @@ Explore the contents to discover insightful documentation, well-commented code, 
 
  |-- /SSM
 
+ |-- /Static_Website
+
  |-- /VPC_Bastion-Host
        
  |-- /VPC_Endpoints
