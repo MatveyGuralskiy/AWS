@@ -25,6 +25,8 @@ My example:
 
 1. Create S3 Bucket, Upload file, Create also Certificate SSL in Certificate Manager, Create CloudFront directory and Route53 Record (full tutorial: https://github.com/MatveyGuralskiy/AWS/tree/main/Static_Website)
 
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Lambda_Edge/Screens/CloudFront.png?raw=true">
+
 2. Create IAM role for lambda: lambdaBasicExecutionRole and edit the role in trust relationships:
 
 ```
@@ -34,6 +36,16 @@ My example:
 ]
 ```
 
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Lambda_Edge/Screens/IAM_Role.png?raw=true">
+
 3. Create Lambda function in Virginia and after Deploy click on Actions --> Deploy to Lambda@edge
 
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Lambda_Edge/Screens/Deploy%20to%20Lambda@Edge.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Lambda_Edge/Screens/Lambda_Function.png?raw=true">
+
 4. Go to the Website and checked if it works correctly, open it in different browser or with Incognito mode
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Lambda_Edge/Screens/Website-1.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Lambda_Edge/Screens/Website-2.png?raw=true">
