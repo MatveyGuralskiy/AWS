@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@keyframes button-size {
+    from {
+        font-size: 70px;
+    }
+
+    to {
+        font-size: 75px;
+    }
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-color: rgb(167, 140, 240);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 70px;
+    background-color: aliceblue;
+    margin: 15px;
+    padding: 1%;
+    /* Animation */
+    transition: all 1.5s;
+    animation-duration: 3s;
+    animation: button-size 5s infinite;
+}
+
+main p {
+    font-size: 30px;
+    margin-left: 30px;
+    /* Animation */
+    transition: all 1.5s;
+    animation-duration: 3s;
+}
+
+footer button {
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 7%;
+    margin-left: 350px;
+    padding: 10px;
+    /* Animation */
+    transition: all 1.5s;
+    animation-duration: 3s;
+
+}
+
+footer button:hover {
+    background-color: dodgerblue;
+    /* Animation */
+    transform: translateY(7px);
+
+}
+
+.items {
+    display: flex;
+}
+
+.items img {
+    border-radius: 48%;
+    height: 150px;
+    position: relative;
+    left: 300px;
+    /* Animation */
+    transition: all 1.5s;
+    animation-duration: 3s;
+}
+
+.items img:hover {
+    background-color: rgba(0, 0, 0, 0.700);
+    /* Animation */
+    transform: translateY(10px);
+}
