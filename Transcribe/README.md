@@ -7,24 +7,18 @@ Files have to be in S3 Bucket to create jobs
 
 In my example, I used 2 MP3 Speeches in Russian and English
 
-<img src="">
+I created S3 Bucket with Template files to work with Transcribe
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Transcribe/Screens/S3-Bucket.png?raw=true">
 
-<img src="">
+Now create Jobs in Transcribe Service
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Transcribe/Screens/Transcribe-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Transcribe/Screens/Transcribe-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Transcribe/Screens/Transcribe-3.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Transcribe/Screens/Transcribe-4.png?raw=true">
 
-<img src="">
-
-<img src="">
-
-<img src="">
-
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Transcribe/Screens/Transcribe-5.png?raw=true">
