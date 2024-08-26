@@ -10,8 +10,8 @@ and more
 
 You can attach to Macie EventBridge Rule with SNS Topic or Lambda function for example to add encrypt S3 Bucket feature
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Macie/Screens/S3.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Macie/Screens/Macie-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Macie/Screens/Macie-2.png?raw=true">
