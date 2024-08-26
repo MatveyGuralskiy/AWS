@@ -15,28 +15,36 @@ You could attach Trusted IP addresses and Treats
 
 Attach SNS Topic and EventBridge Rule
 
-<img src="">
+In my example I created SNS Topic with EventBridge Rule which looks at GuardDuty Findings
 
-<img src="">
+I Enable GuardDuty
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/GuardDuty-1.png?raw=true">
 
-<img src="">
+I created SNS Topic
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/SNS.png?raw=true">
 
-<img src="">
+And Add EventBridge Rule
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/EventBridge-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/EventBridge-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/EventBridge-3.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/EventBridge-4.png?raw=true">
 
-<img src="">
+Now I clicked on Generate Sample Finding to check if EventBridge works correctly
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/GuardDuty-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/GuardDuty-3.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/GuardDuty-4.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/GuardDuty-5.png?raw=true">
+
+I get on Gmail some Notifications:
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/GuardDuty/Screens/Email.png?raw=true">
