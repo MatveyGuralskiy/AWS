@@ -5,7 +5,7 @@ Beijing Region (cn-north-1): Operated by Sinnet.
 
 Ningxia Region (cn-northwest-1): Operated by NWCD.
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/China_Region/Screens/China-1.jpg?raw=true">
 
 China regions are full isolated from other AWS Regions, it means that your credentials not be available in AWS China
 
@@ -19,7 +19,7 @@ Due to Chinese regulations, the regions are managed by local providers under a s
 
 To use these regions, customers need a separate account specific to China, which is different from global AWS accounts.
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/China_Region/Screens/China-2.png?raw=true">
 
 Example to Upload S3 Bucket Storage:
 
