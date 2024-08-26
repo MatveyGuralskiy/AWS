@@ -5,12 +5,12 @@ Sandbox - 200 emails for 24 hours, 1 email per second, only verified email addre
 
 Production - send request without limits
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/SES/Screens/SES-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/SES/Screens/SES-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/SES/Screens/SES-3.png?raw=true">
 
 Email I get at the result
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/SES/Screens/Gmail.png?raw=true">
