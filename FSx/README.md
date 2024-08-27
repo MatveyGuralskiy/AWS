@@ -1,6 +1,17 @@
 # FSx
 Amazon FSx is a fully managed service that provides highly reliable, scalable, and performant file storage solutions optimized for specific use cases. AWS offers different file systems under the FSx service, each designed to meet varying needs, such as Windows-based environments, high-performance computing, or Linux-based workloads.
 
+Min: 300GB
+
+Max: 16TB
+
+Ports to open:
+- SMB 445
+- TCP 135
+- TCP 55555
+
+Source your VPC
+
 ## Types of Amazon FSx:
 
 ### Amazon FSx for Windows File Server:
