@@ -37,146 +37,201 @@ I Migrated 2 Servers to my Account, the first server based on Linux, Ubuntu with
 
 I Created 2 Servers on AWS different account so I want to migrate them
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Original-EC2-List.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Original-Webserver.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Connect-RDP-Original-1.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Connect-RDP-Original-2.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Connect-RDP-Original-3.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Original-Windows.png?raw=true">
 
 ## Steps:
 
 ### Create VPC
 
-<img src="">
-
-<img src="">
-
-<img src="">
-
-<img src="">
-
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/VPC.png?raw=true">
 
 ### Create IAM User
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/IAM-User-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/IAM-User-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/IAM-User-3.png?raw=true">
 
-<img src="">
-
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/IAM-User-4.png?raw=true">
 
 ### Set up MGN
 
-<img src="">
+Change Replication Template also
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-3-Replication-Template.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-4-Replication-Template.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-5-Replication-Template.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-6-Replication-Template.png?raw=true">
 
 ### Install MGN Agents
 
-<img src="">
+Click on Add Server
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Install-MGN-Agent.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Install-Agent-Ubuntu-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Install-Agent-Ubuntu-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Install-Agent-Windows-1.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Install-Agent-Windows-2.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Install-Agent-Windows-3.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-7-with-agents.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-8-list.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-9-list.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-10-Finished-Sync.png?raw=true">
 
 ### Create Security Groups
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/SG-1.png?raw=true">
 
-<img src="">
-
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/SG-2.png?raw=true">
 
 ### Modify Launch Template
+#### Linux
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-11-Linux.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-12-Linux.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-13-Linux-Edit.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-14-Linux-Edit.png?raw=true">
 
-<img src="">
+Now Modify Launch Templates
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-3.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-4.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Enable-IP.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-5.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-6.png?raw=true">
+
+#### Windows
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-15-Windows.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-16-Windows-Edit.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-18-Windows-Edit.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Windows-1.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Windows-2.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Windows-3.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Windows-4.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Windows-5.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Windows-6.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Windows-7.png?raw=true">
 
 ### Export and Import with S3 Bucket
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/S3-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/S3-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Export-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/S3-Export-2.png?raw=true">
 
-<img src="">
+Change some configurations for example: t2.micro --> t2.small
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/CSV-File.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/S3-Export-Updated-CSV.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Import-1.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Import-2.png?raw=true">
 
 ### Launch Testing and other stages
 
-<img src="">
+#### Linux
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-Job-3.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-Job-4.png?raw=true">
 
-<img src="">
+How EC2 testing looks like
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-EC2-5.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-List-6.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-7.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-8.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-9.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-Job-9.png?raw=true">
 
-<img src="">
+#### Windows
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Windows-1.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Windows-Job.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Windows-8.png?raw=true">
+
+Results
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-Result-1.png?raw=true">
 
 ### Disconect from MGN Service
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Finalize-Linux-1.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Finalize-Linux-2.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Finalize-Linux-3.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-Windows-Results-1.png?raw=true">
 
-<img src="">
+### Results
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/EC2-Results.png?raw=true">
 
-<img src="">
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-Result-2.png?raw=true">
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/SSH-Linux-Result.png?raw=true">
