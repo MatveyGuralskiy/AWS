@@ -43,6 +43,8 @@ I Created 2 Servers on AWS different account so I want to migrate them
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Connect-RDP-Original-1.png?raw=true">
 
+To connect with RDP enter your Private Key and get decryption of your key
+
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Connect-RDP-Original-2.png?raw=true">
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Connect-RDP-Original-3.png?raw=true">
@@ -53,9 +55,13 @@ I Created 2 Servers on AWS different account so I want to migrate them
 
 ### Create VPC
 
+Create some VPC with Public Subnets and Internet Gateway
+
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/VPC.png?raw=true">
 
 ### Create IAM User
+
+Create IAM User for Migration and Attach for him policy to get accesses for that
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/IAM-User-1.png?raw=true">
 
@@ -67,9 +73,11 @@ I Created 2 Servers on AWS different account so I want to migrate them
 
 ### Set up MGN
 
-Change Replication Template also
+Enable the Service first of all
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-1.png?raw=true">
+
+Change Replication Template also
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-2.png?raw=true">
 
@@ -83,9 +91,13 @@ Change Replication Template also
 
 ### Install MGN Agents
 
+To Migrate Servers we should install on them MGN Agents and used AWS IAM Migration User credentials
+
 Click on Add Server
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Install-MGN-Agent.png?raw=true">
+
+Now use SSH and RDP and Install them
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Install-Agent-Ubuntu-1.png?raw=true">
 
@@ -97,21 +109,30 @@ Click on Add Server
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Install-Agent-Windows-3.png?raw=true">
 
+Check in Application Migration Service if he sees our Servers
+
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-7-with-agents.png?raw=true">
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-8-list.png?raw=true">
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-9-list.png?raw=true">
 
+Wait until they finished to sync
+
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-10-Finished-Sync.png?raw=true">
 
 ### Create Security Groups
+
+Create 2 security groups for Linux and Windows Server with some ports
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/SG-1.png?raw=true">
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/SG-2.png?raw=true">
 
 ### Modify Launch Template
+
+Our Migration Service used Launch Template for every Server we want to migrate so we could change some parameters of them like Subnets, Security groups, Keys, Enable Public IP, Tags and more
+
 #### Linux
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-11-Linux.png?raw=true">
@@ -130,15 +151,19 @@ Now Modify Launch Templates
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-3.png?raw=true">
 
-<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-4.png?raw=true">
-
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Enable-IP.png?raw=true">
+
+Now set default version for this Template
+
+<img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-4.png?raw=true">
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-5.png?raw=true">
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-6.png?raw=true">
 
 #### Windows
+
+Do the same things for Windows Server
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/AM-15-Windows.png?raw=true">
 
@@ -162,17 +187,27 @@ Now Modify Launch Templates
 
 ### Export and Import with S3 Bucket
 
+If we got many servers we can configure all of them more easily with CSV file
+
+We can Export to S3 our configurations and change them and after Import them
+
+I created S3 Bucket
+
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/S3-1.png?raw=true">
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/S3-2.png?raw=true">
+
+Do Export and Download the file CSV
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Export-1.png?raw=true">
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/S3-Export-2.png?raw=true">
 
-Change some configurations for example: t2.micro --> t2.small
+Changed some configurations for example: t2.micro --> t2.small
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/CSV-File.png?raw=true">
+
+Upload them to S3 and Import him
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/S3-Export-Updated-CSV.png?raw=true">
 
@@ -181,6 +216,14 @@ Change some configurations for example: t2.micro --> t2.small
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Import-2.png?raw=true">
 
 ### Launch Testing and other stages
+
+We have different stages to Migrate our Resources:
+
+- Launch test instances = for the first testing of our server
+- Ready for cutover = at the end he will launch your server
+- Launch cutover instances = he will recreate your server to analize and checked if migration is completed 100% successfully
+- Finalize cutover = you get you final server in EC2
+- Archive - to disconect from the MGN and used EC2
 
 #### Linux
 
@@ -192,9 +235,11 @@ Change some configurations for example: t2.micro --> t2.small
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-Job-4.png?raw=true">
 
-How EC2 testing looks like
+How EC2 testing looks like when you testing
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-EC2-5.png?raw=true">
+
+MGN console
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Launch-Linux-List-6.png?raw=true">
 
@@ -219,6 +264,8 @@ Results
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/LC-Linux-Result-1.png?raw=true">
 
 ### Disconect from MGN Service
+
+The last step is to disconect from the list of MGN and Archive and after that you can used your EC2 Instances 
 
 <img src="https://github.com/MatveyGuralskiy/AWS/blob/main/Application_Migration/Screens/Finalize-Linux-1.png?raw=true">
 
